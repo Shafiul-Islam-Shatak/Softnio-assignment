@@ -9,9 +9,9 @@ const Bannar = () => {
                 backgroundSize: '200px',
             }}
         >
-            <div className='flex items-center justify-center w-full h-full'
+            <div className='flex items-center justify-center w-full h-full opacity-80'
                 style={{
-                    background: "linear-gradient(123.4deg, #BD1F17 40.8%, #A61D13 76.4%, #8E1B0F 120.69%)",
+                    background: " linear-gradient(123.4deg, #BD1F17 40.8%, #A61D13 76.4%, #8E1B0F 120.69%)",
                 }}
             >
                 <h1>hii</h1>
