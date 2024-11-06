@@ -58,8 +58,8 @@ const Navbar = () => {
 
                     <aside
                         className={`${
-                            mobileSidebarOpen ? "translate-x-0 opacity-100 z-20" : "translate-x-[200px] opacity-0 z-[-1]"
-                        } lg:hidden bg-white boxShadow p-4 text-center absolute top-[65px] right-0 w-full rounded-md transition-all duration-300`}
+                           ! mobileSidebarOpen ? "translate-x-0 opacity-100 z-20" : "translate-x-[200px]  hidden opacity-0 z-[-1]"
+                        }  lg:hidden bg-white boxShadow p-4 text-center absolute top-[65px] right-0 w-full rounded-md transition-all duration-300`}
                     >
                         <ul className="items-center gap-[20px] text-[1rem] text-gray-600 flex flex-col">
                             {["Home", "About", "Portfolio", "Clients", "Blog", "Contact"].map((item) => (
